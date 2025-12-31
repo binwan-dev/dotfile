@@ -27,7 +27,7 @@ export PATH="/usr/local/bin:$HOME/.cargo/bin:$PATH"
 export GO111MODULE="on"
 export GOPATH="/Users/binwan/Documents/go"
 export GOPRIVATE=git.shijizhongyun.com/*
-export PATH="/Users/binwan/Documents/go/bin:/usr/local/go/bin:/Users/binwan/Documents/shell:/opt/homebrew/bin/:$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/"
+export PATH="/opt/homebrew/opt/git/bin:/Users/binwan/Documents/go/bin:/usr/local/go/bin:/Users/binwan/Documents/shell:/opt/homebrew/bin/:$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/"
 export GOPROXY=https://goproxy.cn,direct
 export DYLD_LIBRARY_PATH=/opt/homebrew/opt/openssl@1.1/lib # It's fixed the dotnet can't using AES-GCM
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
@@ -63,3 +63,12 @@ alias gf=gf
 export PATH="/Users/binwan/.codeium/windsurf/bin:$PATH"
 
 export OLLAMA_API_BASE="http://127.0.0.1:11434"
+
+eval "$(starship init zsh)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/binwan/.lmstudio/bin"
+# End of LM Studio CLI section
+
+export ASPNETCORE_ENVIRONMENT=Development
+export BSIDEBUG=true
