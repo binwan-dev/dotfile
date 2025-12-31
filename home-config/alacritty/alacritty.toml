@@ -1,0 +1,11 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/github_light.toml"
+]
+
+[font]
+normal = { family = "Monolisa Nasy", style = "Regular" }
+size = 14
+
+[cursor]
+style = { shape = "Beam", "blinking" = "On" }

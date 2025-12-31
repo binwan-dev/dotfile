@@ -1,0 +1,3047 @@
+$nu.config_path
+$nu.config-path
+ls
+gst
+l
+exit
+brew tap FelixKratz/formulae
+brew install sketchybar
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
+ls
+exit
+nu --commands "source ~/.config/nushell/config.nu"
+clear
+nu --commands "source ~/.config/nushell/config.nu"
+clear
+nu --commands "source ~/.config/nushell/config.nu"
+exit
+gst
+ls
+clear
+ls
+cd ../../../dotnet/camx/air/BSI.CAMX.Air.Booking/
+ls
+make proto
+ls
+make proto
+git status
+make proto
+gst
+cd ../../../
+cd ../proto/
+ls
+cd parrot/
+gpu
+make pro
+make proto
+gst
+dotnet build
+ls
+cd ../camx/air/booking/
+ls
+make err
+make proto
+ls
+git status
+cd ../../
+gst
+ga
+ls
+gst
+ga
+gadd .
+gst
+gc
+gc -m "refactor: error"
+gp
+gpush
+gp
+gst
+gc "refactor: error"
+gp
+gst
+gco dev
+git merge feature/s01
+git push
+gl
+glog
+gst
+gadd .
+gst
+gc "refactor: error"
+gp
+gpu
+gp
+ls
+cd ../../
+ls
+cd ../binwan-dev/project/dotfile/
+ls
+l
+make home-config/
+make home-config
+cat ~/.config/starship/starship.toml
+starship
+nu --commands "source ~/.config/nushell/config.nu"
+exit
+nu --commands "source ~/.config/nushell/config.nu"
+cat ~/.cache/starship/init.nu
+nu --commands "source ~/.config/nushell/config.nu"
+git status
+git pull
+sudo xcodebuild -license
+ls
+gst
+gpu
+gpu
+ls
+git pull
+git checkout dev
+git pull
+git log -p src/BSI.CAMX.Air.Booking.Proto/camx/air/booking/errors.cs
+git pull
+ls
+nu --commands "source ~/.config/nushell/config.nu"
+exit
+ls
+exit
+ssh hk01
+exit
+exit
+ls
+ssh hk01
+ls
+docker ps
+ls
+tmux
+brew install sketchybar
+ls
+mkdir -p ~/.config/sketchybar/plugins
+mkdir
+mkdir help
+ls
+rm -rf help/
+ls
+gst
+mkdir --help
+mkdir ~/.config/sketchybar/plugins
+cp $(brew --prefix)/share/sketchybar/examples/sketchybarrc ~/.config/sketchybar/sketchybarrc
+ls
+$(brew --prefix)
+brew --prefix
+cp -r /opt/homebrew/share/sketchybar/examples/plugins/ ~/.config/sketchybar/plugins/
+brew services start sketchybar
+sketchybar
+brew services status sketchybar
+brew services start sketchybar
+sketchybar
+ls
+pwd
+exit
+pwd
+cd ../../../
+ls
+cd dotnet/camx/air/BSI.CAMX.Air.Booking/
+ls
+gpu
+gco dev
+gst
+gco feature/s01
+gpu
+git log
+git checkout dev
+git merge feature/s01
+git push
+glog
+gst
+git checkout src/BSI.CAMX.Air.Booking.Proto/camx/air/booking/models/airline_goods_msg.cs
+ls
+ls
+sketchybar
+brew services start sketchybar
+brew services  
+sketchybar
+whereis sketchybar
+sketchybar
+brew services restart sketchybar
+sketchybar
+j
+cd ~/Documents/binwan-dev/project/dotfile/
+ls
+cd home-config/
+ls
+rm -rf sketchybar<\n>/
+rm -rf "sketchybar<\n>/"
+ls
+mkdir sketchybar
+ls
+mkdir plugins
+mkdir helper
+mkdir items
+ls
+mv plugins/ sketchybar/
+mv items helper/ sketchybar/
+ls
+cd sketchybar/
+ls
+cd ..
+make home-config
+cd ..
+make home-config
+rm -rf ~/.config/sketchybar
+make home-config
+brew services restart sketchybar
+ls
+brew services stop sketchybar
+ls
+gst
+git diff src/BSI.CAMX.Air.Booking.Core/Services/AirLineGoodsService.cs
+git add .
+git status
+git commit -m "feat: sql"
+git push
+git pull
+gp
+gpu
+git status
+git commit -m "fix: merge"
+gpu
+gp
+make proto
+make efcore
+git status
+ls
+make proto
+cd air/
+ls
+cd booking/
+ls
+make err
+make proto
+gst
+gadd .
+gst
+gc
+gc "fix: times"
+gp
+gco feature/s01
+git merge dev
+gp
+gco dev
+ls
+git log
+git pull
+git checkout feature/s01
+git pull
+git status
+git diff
+git checkout .
+git status
+git pull
+make err
+git pull
+git checkout feature/s01
+git pull
+ls
+gst
+gpu
+gco dev
+gpu
+make 
+ls
+make efcore
+ls
+gst
+git diff
+git stauts
+gp
+make proto
+ls
+brew install grpcurl
+grpcurl -d '{"id": "491570330550394880", "code": "55", "desc_lang": [{"key": "Language_zhCN", "value": "1"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -d '{"id": "491570330550394880", "code": "55", "desc_lang": [{"key": "Language_zhCN", "value": "1"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update -H bsi-check-fields:DescLang
+grpcurl -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "55", "desc_lang": [{"key": "Language_zhCN", "value": "1"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl --help
+grpcurl -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "55", "desc_lang": [{"key": "Language_zhCN", "value": "1"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update -insecure
+grpcurl -insecure -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "55", "desc_lang": [{"key": "Language_zhCN", "value": "1"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl --insecure -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "55", "desc_lang": [{"key": "Language_zhCN", "value": "1"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "55", "desc_lang": [{"key": "Language_zhCN", "value": "1"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "55", "desc_lang": [{"key": "Language_zhCN", "value": "1"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "557", "desc_lang": [{"key": "Language_zhCN", "value": "2"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "556", "desc_lang": [{"key": "Language_zhCN", "value": "3"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "558", "desc_lang": [{"key": "Language_zhCN", "value": "4"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "559", "desc_lang": [{"key": "Language_zhCN", "value": "5"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "560", "desc_lang": [{"key": "Language_zhCN", "value": "6"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "561", "desc_lang": [{"key": "Language_zhCN", "value": "7"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "563", "desc_lang": [{"key": "Language_zhCN", "value": "9"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+grpcurl -plaintext -H bsi-check-fields:DescLang -d '{"id": "491570330550394880", "code": "562", "desc_lang": [{"key": "Language_zhCN", "value": "8"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+ls
+cd Documents/bsi/bi/
+ls
+cd bi/
+git pull
+git status
+git add .
+git commit -m "feat: add customer"
+git push
+git pull
+cursor .
+windsurf .
+gst
+gadd .
+gc "feat: crm t_follow_record for ods"
+gp
+ls
+ssh hk01
+cd Documents/bsi/bi/
+ls
+cd ../proto/camx
+ls
+cd air/
+ls
+cd booking/
+ls
+gst
+gd
+gdiff
+ls
+gst
+gco models/airline_handing_code_dto.proto
+gco models/airline_handing_code_msg.proto
+ls
+gst
+ssh hk01 -v
+ls
+cd /
+cd ~
+ssh hk01 -v
+grpcurl -plaintext -H bsi-check-fields:DescLang -H bsi-check-sign:NDkzYTk3ZTFhZGI5MjQxOTlhMGM0NzRmYTIwNzI0ZjJANDk0NTMwMjU4MTk5MTUwNTkyQDE3NTkwMjk2OTQwMzM= -d '{"id": "494530258199150592", "code": "571", "desc_lang": [{"key": "Language_zhCN", "value": "10"}]}' 127.0.0.1:50161 camx.air.booking.AirlineHandingCode/Update
+ls
+make 
+make proto
+git status
+gst
+gadd .
+gc "refactor: data linek"
+gst
+gp
+gpu
+gp
+gco dev
+git merge feature/s01
+gst
+gp
+git status
+gadd .
+gc "feat: add concurrency for handing code"
+gst
+gp
+gpu
+gp
+gco feature/s01
+git merge dev
+gp 
+gco dev
+gp
+gco feature/s01
+gpu
+git log
+gst
+gpu
+git log
+gco dev
+git merge feature/s01
+gp
+glog
+exit
+exit
+exit
+ls
+clear
+cat /etc/shells
+whereis nu
+chsh -s /opt/homebrew/bin/nu
+exit
+gst
+gco src/BSI.CAMX.Air.Booking.Core/Services/AirlineAttachmentService.cs
+gco src/BSI.CAMX.Air.Booking.Core/Services/AirlineBookingConfigService.cs
+gst
+cd Documents/bsi/proto
+ls
+cd camx/air/
+ls
+cd ..
+git pull
+gst
+gco feature/s01
+gpu
+ls
+cd air/
+ls
+cd booking/
+ls
+cat errors.proto
+cat errors.proto | grpe ErrorsValidationErrorAirlineSubjectStartPortNotFound
+cat errors.proto | grep ErrorsValidationErrorAirlineSubjectStartPortNotFound
+cat errors.proto | grep ErrorsValidationErrorAirlineSubject
+cat errors.proto | grep AirlineSubject
+ls
+cd ../../
+make err
+ls
+cd air/
+ls
+cd booking/
+ls
+make err
+cd ~/Documents/bsi/dotnet/camx/air/BSI.CAMX.Air.Booking/
+make proto
+git status
+ls
+git status
+gdiff
+make err
+gitstatus
+gst
+cat errors.proto 
+gdiff
+gst
+gdiff
+git add .
+git status
+gc "fix: merge "
+gst
+gp
+gco dev
+git merge feature/s01
+gp
+gst
+dotnet build
+git status
+gadd .
+gst
+gc "refactor: to null bool"
+gp
+gpu
+git log
+gdiff 7910cdcb002e464047cac692342412be15bd934b
+glog
+gdiff 7910cdc
+git show 7910cdc
+gst
+gp
+ls
+dotnet tool update -g csharp-ls
+ls
+exit
+ls
+tree
+tree -d
+brew install tree
+pxy brew install tree
+proxychains
+proxychains-ng
+proxychain-ng
+nu --commands "source ~/.config/nushell/config.nu"
+pxy curl google.com
+exit
+ls
+pxy
+zsh
+ls
+clear
+pxy
+source $nu.config-path
+ls
+pxy
+proxychains4
+pxy
+^/usr/local/bin/proxychains4
+exit
+pxy
+pxy brew install tree
+pxy curl google.com
+pxy brew install tree
+tree
+tee
+tree 
+arch -arm64 brew install tree
+tree
+tree --help
+tree -L 2
+cd ~/Documents/bsi/dotnet/camx/air/BSI.CAMX.Air.Booking/
+ls
+tree -L 2
+tree -L 1
+git status
+ls
+brew install zoxide
+pxy brew install zoxide
+arch -arm64 brew install zoxide
+z
+exit
+ls ~/.zoxide.nu
+cat ~/.zoxide.nu
+exit
+ls
+z
+z Booking
+ls
+pwd
+brew install atuin
+exit
+rxit
+exit
+ls
+emacs -nw
+tmux
+brew install tmux
+tmux
+cd ~/Downloads/
+ls
+unzip dotfiles-master.zip
+cd dotfiles-master/
+ls
+cp -r tmux ~/Documents/binwan-dev/project/dotfile/home-config/
+j
+z home-config
+z dotfile
+cd ~/Documents/binwan-dev/project/dotfile/home-config/
+ls
+cd tmux/
+ls
+cd ..
+ls
+cd ..
+ls
+make home-config
+rm -rf ~/.config/atuin/
+make home-config
+ls ~/.config/
+rm -rf ~/.config/atuin
+cat ~/.config/atuin/config.toml
+rm -rf ~/.config/atuin
+make home-config
+zsh
+ls
+make home-config
+tmux
+tmux attach
+j Booking
+z Booking
+glog
+gpu
+tmux
+tmux ls
+tmux kill 1
+tmux kill-session 1
+tmux kill-session 0
+tmux kill-session
+tmux ls
+tmux kill-session
+ls
+tmux ls
+ls
+exit
+cd ~/Documents/bsi/dotnet/
+ls
+cd ../sjzy/
+lks
+ls
+cd dotnet/
+ls
+cd SJZY.CAMS.Api/
+ls
+rider
+gst
+gco master
+gpu
+git branch -a
+gco -b fix/snowflake
+ls
+exit
+git status
+git add .
+git status
+git reset HEAD
+git status
+vim .gitignore
+git status
+git rm -rf .idea/
+git status
+git add .
+git status
+git commit -m "fix: snowflake"
+git push origin fix/snowflake
+ls
+cd camx/air/
+gst
+cd ../../
+ls
+cd ..
+ls
+cd proto/
+ls
+cd camx/air/
+ls
+exit
+$ brew install danvergara/tools/dblab
+brew install danvergara/tools/dblab
+dblab
+dblab --host mysql-dev.default.svc.cluster.local --user sjzy_dev_user --db bsi_camx_air_booking --pass 818f83e5 --ssl disable --port 3306 --driver mysql --limit 50
+cd ~/Documents/binwan-dev/project/dotfile/home-config/
+ls
+cd ..
+ls
+make home
+dblab --host mysql-dev.default.svc.cluster.local --user sjzy_dev_user --db bsi_camx_air_booking --pass 818f83e5 --ssl disable --port 3306 --driver mysql --limit 50
+dblab --host mysql-dev.default.svc.cluster.local --user sjzy_dev_user --db bsi_camx_air_booking --pass 818f83e5 --ssl disable --port 3306 --driver mysql --limit 50 --cfg-name /Users/binwan/.dblab.yaml
+dblab
+dblab --config
+exit
+exit
+ls
+tmux
+whereis nu
+ls
+exit
+ls
+clear
+ls
+cd Documents/bsi/proto/camx
+git status
+gst
+z Booking
+ls
+cd ../../
+gst
+git checkout src/BSI.CAMX.Air.Booking.Api/Http/BaseController.cs
+git checkout src/BSI.CAMX.Air.Booking.Api/Http/HomeController.cs
+gco src/BSI.CAMX.Air.Booking.Api/Start/GrpcStarter.cs
+git status
+gst
+gadd .
+gst
+gc "fix: check fields"
+gp
+gpu
+gco dev
+gco feature/s01
+git merge dev
+git push
+ls
+cat src/BSI.CAMX.Air.Booking.Api/BSI.CAMX.Air.Booking.Api.csproj
+cat makefile
+make update-bsi-boot
+cat src/BSI.CAMX.Air.Booking.Api/BSI.CAMX.Air.Booking.Api.csproj
+cd ../../
+ls
+cd ..
+ls
+cd BSI.Boot/
+gpu
+cd ..
+ls
+cd camx/air/
+ls
+cd BSI.CAMX.Air.Booking/
+ls
+cd ..
+ls
+mkdir BSI.CAMX.Air.Booking.TestPlan
+cd BSI.CAMX.Air.Booking.TestPlan/
+ls
+windsurf .
+cp -r ~/Downloads/airbooking_test_plan.md ./
+ls
+cp -r ../../../../proto/camx/air/booking ./proto
+ls
+cd ../BSI.CAMX.Air.Booking/
+ls
+gst
+gdiff
+gadd .
+gc "feat: update boot version"
+gp
+gco dev
+git merge feature/s01
+gp
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Documents/bsi/other/
+ls
+mkdir test_tool
+exit
+cd camx/air/BSI.CAMX.Air.Booking/
+ls
+gst
+ls
+cd src/BSI.CAMX.Air.Booking.Api/
+ls
+cd Asset/
+ls
+cd migrate/
+ls
+mv 01迭代 sprint_01
+ls
+mv 02迭代 sprint_02
+ls
+mv sprint_01 sprint01
+ls
+mv sprint02ls
+mv sprint_02 sprint02
+ls
+pwd
+mv sprint01 sprint_01
+mv sprint02 sprint_02ls
+mv sprint_02ls/ sprint_02
+ls
+pkill -9 ice
+sudo pkill -9 ice
+reboot
+sudo reboot
+ls
+exit
+ls
+cd Downloads/
+mkdir smsnotify
+mv SmsF_3.3.3.250214_100054_universal_release.apk ./smsnotify/
+cd smsnotify/
+ls
+http-server
+httpserver
+npm install -g http-server
+sudo npm install -g http-server
+http-server
+cd Downloads/
+ls
+mv app-release.apk smsnotify/
+ls
+cd smsnotify/
+http-server
+mv ../Magisk-v29.0.apk ./
+http-server 
+ls
+z Booking
+git status
+git add .
+git status
+git commit -m "refactor: sql"
+git push
+z sms
+ls
+http-server 
+z Booking
+gp
+git fetch 
+ls
+gco test
+gs
+gst
+gco test
+ls
+cd src/
+gco test
+ls
+gpu
+pu
+gp
+cd BSI.CAMX.Air.Booking.Api/
+dotnet run
+git log
+ls
+gco dev
+ls
+gst
+gadd .
+gc "fix: grpc starter"
+gp
+gco test
+git merge dev
+gp
+glog
+cat ~/.ssh/id_ed25519.pub
+cd ../../../
+ls
+cd ../../
+ls
+cd ..
+ls
+mkdir deploy
+ls
+cd deploy/
+ls
+mkdir camx
+cd camx/
+mkdir air
+cd air/
+ls
+pwd
+clear
+git clone git@gitlab.shijizhongyun.com:deploy/cams/air/booking.git
+ls
+cd booking/
+ls
+gco test
+gco -b test
+gst
+gadd .
+gc "feat: test"
+gp
+gst
+gadd .
+gc "feat: ci"
+gp
+gpu
+git status
+gp
+git pull
+git pull origin test
+git config pull.rebase false
+git pull origin test
+gp
+cd ../../
+ls
+cd ../../
+ls
+cd dotnet/
+ls
+cd BSI.Cams.BI/
+ls
+gst
+gpu
+gp
+ls
+cd ..
+git status
+ls
+rm -rf BSI.Cams.BI/
+ls
+cd ..
+ls
+cd bi/
+ls
+git clone SYSTEM@git.shijizhongyun.com:bsi-bi/BSI.Cams.BI.git
+ls
+gco feature/s01
+git merge dev
+gp
+ls
+gp
+gpu
+git push
+gp
+git log
+cd ../sjzy/
+ls
+cd dotnet/
+ls
+git clone SYSTEM@git.shijizhongyun.com:Dotnet/SJZY.ReportCenter.Mvc.git
+ssh bin-server
+cd ~/Downloads/
+ls
+axel -n 10 https://www.power-software-download.com/viewpower/ViewPower_linux_x64_text.tar.gz
+ssh hk01
+ssh bin-server
+ping 192.168.3.252
+ssh bin-server
+ssh bin-server-public
+ssh bin-server
+z bi
+cd BSI.Cams.BI/
+ls
+git status
+git push
+git pull
+git config pull.rebase false
+gpu
+gp
+ls
+z camx
+ls
+z proto
+ls
+cd camx/
+ls
+git status
+git checkout feature/s02
+ls
+git checkout feature/s02 -b
+git checkout -b feature/s02
+git status
+ls
+gst
+gco dev
+ls
+git status
+git checkout -b test
+gp
+z emacs.d
+cd ~/.emacs.d/
+ls
+git status
+cat projects
+vim .gitignore
+git rm -rf straight
+git add .
+git status
+gc "feat: update"
+gp
+gpu
+gp
+ls
+git status
+git add .
+git status
+git commit -m "feat: remove secret info"
+git push
+gp
+git status
+gp --force
+git log
+gp
+git commit --amend --all
+gp
+git commit --amend --all
+git log
+git rebase 21145dff935c6f490a1fb1366dcf373a4c2ada5c
+git reset HARD 21145dff935c6f490a1fb1366dcf373a4c2ada5c
+git reset --hard 21145dff935c6f490a1fb1366dcf373a4c2ada5c
+ls
+git log
+gst
+git commit --amend --all
+gp
+git log
+git rebase -i 50ed897cda3e172017b8589043d3e2916126a04b
+git log
+git rebase -i 50ed897cda3e172017b8589043d3e2916126a04b~1
+git rebase --continue
+git rebase --edit-todo
+git rebase -i 50ed897cda3e172017b8589043d3e2916126a04b~1
+git rebase --continue
+git log
+git rebase -i 50ed897cda3e172017b8589043d3e2916126a04b~1
+git statsu
+git status
+git log
+git rebase -i 50ed897~1
+git status
+git diff config/init-ai.el
+git rebase --continue
+git add  .
+git status
+git commit --amend --all
+git rebase --continue
+gp
+ssh hk01
+ssh bin-server
+ls
+z bi
+ls
+cd BSI.Cams.BI/
+ls
+cd cams30/dws/
+ls
+cd init/
+ls
+sed "s/\${max_db_update_time}/12/g" ./dws_cams30_fmc_settle_charge_invoice.sql > /tmp/a.sql
+sed "s|\${max_db_update_time}|1970-01-01 00:00:00|g" ./dws_cams30_fmc_settle_charge_invoice.sql > /tmp/a.sql
+ls
+vim test.sh
+./test.sh
+chmod +x test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+z .emacs.d
+gp
+ls
+exit
+ls
+ks
+ls
+exit
+ls
+zsh
+exit
+ghostty +list-themes
+exit
+exit
+ls
+cat ~/.config/ghostty/config
+exit
+<\n>ghostty --config
+ghostty --config
+exit
+ls
+ghostty --help
+ghostty +edit-config
+ghostty +validate-config
+ghostty +config
+ghostty config
+whereis ghostty
+ls `~/Library/Application Support/com.mitchellh.ghostty/`
+ghostty +validate-config
+cat $HOME/.local/state/ghostty/logs
+cat ~/.local/state/ghostty/logs
+<\n>ghostty +reload-config
+ghostty +reload-config
+ls
+ghostty +list-themes
+ghostty +reload-config
+exit
+ls
+ghostty +validate-config
+ls
+ghostty --config
+ghostty +list-themes
+ls
+exit
+ghostty --config
+ls
+ghostty +list-themes
+\
+ls
+zsh
+exit
+ls
+cd init
+exit
+ghostty --config
+exit
+ls
+z Booking
+ls
+ghostty +validate-config
+exit
+ghostty --config
+exit
+ls
+cd Documents/binwan-dev/project/dotfile/
+ls
+cd home-config/
+ls
+mkdir alacritty
+ls
+cd alacritty/
+ls
+git submodule add https://github.com/alacritty/alacritty-theme.git themes
+ls
+cd themes/
+ls
+cd ..
+ls
+exit
+z dotfi
+ls
+make home-config
+exit
+ls
+gl
+ls
+clear
+ls
+exit
+ls
+dddddd
+ls
+mv ~/Downloads/zellij /usr/local/bin/
+sudo mv ~/Downloads/zellij /usr/local/bin/
+ls
+zellij 
+ls
+sudo rm -rf /usr/local/bin/zellij
+ls
+ghostty +dump-config
+exit
+ghostty --config ~/.config/ghostty/config
+ls
+z dotfile
+ls
+cd home-config/
+ls
+cd ghostty/
+ls
+cat config
+ls -la ~/.ghostty.yml
+ghostty +reload-config
+ghostty +help
+ghostty +show-config
+ghostty +help
+ghostty +edit-config
+export $EDITOR=vim
+$env.EDITOR=vim
+$env.EDITOR="vim"
+$env.EDITOR = "vim"
+ghostty +edit-config
+ls
+exit
+ghostty
+whereis ghostty
+zhs
+zs
+ls
+ghostty +show-config
+l
+ls
+ghostty -c
+ls
+z camx
+ls
+z proto
+ls
+cd camx/
+git status
+git checkout dev
+git status
+gs
+gst
+gadd .
+gc "feat: nullbool desc"
+gp
+z Booking
+ls
+make proto
+ls
+tool
+zsh
+gc "feat: null bool desc"
+gp
+gco dev
+git merge feature/s01
+gp
+gst
+gadd .
+gc "fix: options for booking config list"
+go
+gp
+gco feature/s01
+git merge dev
+go
+gp
+gco test
+git merge dev
+gp
+z proto
+cd camx/
+gco test
+git merge dev
+gp
+ls
+git status
+ls
+z CAMS.API
+ls
+gpu
+gco master
+gpu
+ls
+ghostty +list-themes
+ls
+cd camx/
+ls
+exit
+ghostty 
+ghostty +list-themes
+ls
+cd camx/
+z Booking
+ls
+exit
+ghostty
+ls
+cd camx/
+z Booking
+gst
+git log
+ls
+exit
+ls
+cd camx/
+exit
+ghostty
+ls
+cd camx
+z Booking
+git log
+ls
+exit
+ls
+cd camx
+z Booking
+git log
+ls
+exit
+ghostty
+ls
+z Booking
+ls
+git log
+exit
+ghostty 
+exit
+ghostty
+ls
+zsh
+ls
+exit
+ls
+exit
+ls
+cd camx
+nu reload
+ls
+ls ~/.config/nushell/config.nu
+cat ~/.config/nushell/config.nu
+ls
+zhs
+zsh
+ls
+exit
+nu
+exit
+ls
+nu reload
+exit
+exit
+ls
+cd Documents/
+ls
+cd binwan-dev/
+ls
+cd project/
+ls
+mkdir aitest
+ls
+cd aitest
+ls
+cd ..
+ls
+rm -rf aitest
+ls
+mkdir binai.test
+ls
+cd binai.test/
+ls
+clear
+git init
+cd ..
+ls
+cd project/
+ls
+cd OpenEasyDoc/
+ls
+gpu
+dotnet restore
+cd src/
+ls
+dotent restore
+cd OpenEasyDoc/
+ls
+dotnet restore
+ls
+cd camx
+z bsi
+ls
+cd ../../
+ls
+cd ..
+cd ../sjzy/
+ls
+cd dotnet/
+ls
+cd SJZY.ABP.Core/
+gpu
+cat .git/config
+vim .git/config
+gpu
+cat .git/config
+gpu
+gco net7.0
+gpu
+glog
+gco master
+glog
+gco net7.0
+ls
+z CAMS
+ls
+gpu
+gst
+gco
+gst
+gco src/SJZY.CAMS.Api/ApiModule.cs
+gpu
+gst
+cd src/SJZY.CAMS.Api/
+ls
+dotnet restore
+dotnet run
+curl localhost:5050/test
+ks
+dotnet run
+curl localhost:5050/test
+dotnet run
+curl localhost:5050/test
+curl localhost:5050/test/ex
+dotnet run
+curl localhost:5050/test/ex
+curl localhost:5050/test/exsfd
+dotnet run
+curl localhost:5050/test/ex
+dotnet run
+curl localhost:5050/test/ex
+dotnet run
+curl localhost:5050/test/ex
+ls
+gst
+gdiff
+gst
+rm -rf ../AirManage/SJZY.CAMS.AirManage.Application/Services/TestService.cs
+gst
+gco refactor/log
+gco -b refactor/log
+gco master
+gst
+gpu
+gco refactor/log
+git merge master
+git checkout test
+gpu
+git merge refactor/log
+gp
+gpu
+git config pull.rebase false
+gpu
+git log
+gp
+git status
+git reset --hard 190414a9a5
+git log
+git push origin test -f
+git status
+git log
+gpu
+git pull origin test
+git checkout master
+git pull
+ls
+git checkout test
+git merge master
+git reset --hard 190414a9a5
+git pull
+git log
+gco master
+git branch -D refctor/log
+git branch -d refctor/log
+git branch -d refactor/log
+git checkout -b refactor/log
+git log
+git status
+git add .
+git status
+git commit -m "refactor: change to frame log"
+git push
+git checkout test
+git merge refactor/log
+git log
+git diff c895d22a5a2c745c55a933d56e222907dd35cbab
+git show c895d22a5a2c745c55a933d56e222907dd35cbab
+git log -d c895d22a5a2c745c55a933d56e222907dd35cbab
+git show c895d22a5a2c745c55a933d56e222907dd35cbab
+git show c895d22a5a2c745c55a933d56e222907dd35cbab --diff
+git diff c895d22a5a2c745c55a933d56e222907dd35cbab
+git show
+git push
+git pull
+git log
+git diff a592b15f75a474fd6d2421891cb1127b12a033bc
+git diff 068fa23655c77d934b9fbfcc8417675c22d18131
+git push
+git status
+git diff
+git status
+git add .
+git status
+git commit -m "refactor: cancel replace frame log"
+git push
+git pull
+git push
+dotnet run
+ping redis-dev.default.svc.cluster.local
+exit
+z CAMS
+ls
+cd src/SJZY.CAMS.Api/
+dotnet run
+ls
+z CAMS
+cd src/SJZY.CAMS.Api/
+dotnet run
+curl localhost:5050/test/ex
+c
+curl localhost:5050/test/ex
+cat /opt/data/SJZY.CAMS.Configuration/config-cache/SJZY.CAMS.Configuration+default+Test.json.json
+sudo dotnet run
+exit
+cat /opt/data/SJZY.CAMS.Configuration/config-cache/SJZY.CAMS.Configuration+default+Test.json.json
+curl localhost:5050/test/ex
+curl -X POST \<\n>  -H "Content-Type: application/json" \<\n>  -d '{<\n>    "msg_type": "text",<\n>    "content": {<\n>      "text": "服务器报警：CPU使用率已达95%！\n时间：$(date)"<\n>    }<\n>  }' \<\n>  https://open.feishu.cn/open-apis/bot/v2/hook/3558efcd-a067-4f3c-abfd-87040a21d6e3
+curl -X POST -H "Content-Type: application/json" -d '{<\n>    "msg_type": "text",<\n>    "content": {<\n>      "text": "服务器报警：CPU使用率已达95%！\n时间：$(date)"<\n>    }<\n>  }' \<\n>  https://open.feishu.cn/open-apis/bot/v2/hook/3558efcd-a067-4f3c-abfd-87040a21d6e3
+curl -X POST -H "Content-Type: application/json" -d '{"msg_type": "text","content": {"text": "服务器报警：CPU使用率已达95%！\n时间：$(date)"}}' https://open.feishu.cn/open-apis/bot/v2/hook/3558efcd-a067-4f3c-abfd-87040a21d6e3
+cat /opt/data/SJZY.CAMS.Configuration/config-cache/SJZY.CAMS.Configuration+default+Test.json.json
+cat /opt/data/SJZY.CAMS.Configuration/config-cache/SJZY.CAMS.Configuration+default+Test.json.json | grep 87040a21d6e3
+sudo rm -rf /opt/data
+sudo rm -rf /opt/data/SJZY.CAMS.Configuration/
+cat /opt/data/SJZY.CAMS.Configuration/config-cache/SJZY.CAMS.Configuration+default+DEV.json.json
+cat /opt/data/SJZY.CAMS.Configuration/config-cache/SJZY.CAMS.Configuration+default+DEV.json.json | grep 87040a21d6e3
+vim /opt/data/SJZY.CAMS.Configuration/config-cache/SJZY.CAMS.Configuration+default+DEV.json.json
+curl localhost:5050/test/ex
+gst
+git log
+ls
+curl localhost:5050/test/ex
+curl localhost:5050/test/ex?aa=1
+z dotnet 
+cd ../sjzy/
+ls
+cd dotnet/
+ls
+curl localhost:5050/test/ex?aa=1
+git clone SYSTEM@git.shijizhongyun.com:Dotnet/SJZY.FMC.Api.git
+curl localhost:5050/test/ex?aa=1
+ls
+mv ~/Downloads/flutter ~/.local/share/atuin/
+cd ~/.local/share/atuin/
+ls
+mv flutter/ ..
+ls
+cd ..
+ls
+cd flutter/
+ls
+cd bin 
+ls
+pwd
+exit
+ls
+flutter version
+flutter --version
+dart --version
+ls
+sudo sh -c 'xcode-select -s /Applications/Xcode.app/Contents/Developer && xcodebuild -runFirstLaunch'
+sudo xcodebuild -license
+xcodebuild -downloadPlatform iOS
+sudo softwareupdate --install-rosetta --agree-to-license
+brew install ruby
+pxy brew install ruby
+brew install ruby
+gem
+gem install cocoapods
+sudo gem install cocoapods
+open -a Simulator
+open Simulator
+open -a Simulator
+cd ~/Documents/navicat_reset_mac-main/
+ls
+sudo ./reset_navicat_52pojie.sh
+sudo ./reset_navicat_new.sh
+sudo ./reset_navicat.sh
+ls
+./reset_navicat_52pojie.sh
+ls
+zsh
+z CAMS.API
+ls
+cd src/SJZY.CAMS.Api/
+ls
+curl localhost:5050/test/ex?aa=1
+dotnet run
+curl localhost:5050/test/ex?aa=1
+curl -X POST -d "{"Name":"Bin"}" localhost:5050/test/sysex 
+curl -X POST -d "{"Name":"Bin"}" localhost:5050/test/sysex
+curl localhost:5050/test/vex?aa=1
+curl localhost:5050/test/remoteex?aa=1
+curl localhost:5050/test/taskex?aa=1
+curl -X "POST" -d "{"Name":"Bin"}" localhost:5050/test/sysex
+dotnet run
+curl -X "POST" -d "{"Name":"Bin"}" localhost:5050/test/sysex
+curl -X "POST" -d "{"Name":"Bin"}" http://localhost:5050/test/sysex
+curl -X "POST" -d "{"Name":"Bin"}" http://localhost:5050/test/sex
+curl -X "POST" -d "{"Name":"Bin"}" http://localhost:5050/test/sex -I
+curl -X "POST" -d "{"Name":"Bin"}" http://localhost:5050/test/sex -i
+curl -X "POST" http://localhost:5050/test/sex -i
+curl -X "POST" -H "Content-Type: application/json" -d "{"Name":"Bin"}" http://localhost:5050/test/sex -i
+curl -X "POST" -H "Content-Type: application/json" -d "{"Name":"Bin"}" http://localhost:5050/test/sex 
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' http://localhost:5050/test/sex
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' http://localhost:5050/test/sex
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' http://localhost:5050/test/sex?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' http://localhost:5050/test/sex
+git status
+git checkout dev
+z CAMS.API
+git checkout dev
+git status
+git checkout src/SJZY.CAMS.Api/appsettings.json
+git statsu
+git diff
+git status
+git checkout dev
+git checkout src/SJZY.CAMS.Api/Program.cs
+git status
+git checkout dev
+git checkout master
+git branch -d refactor/log
+git branch -D refactor/log
+git checkout -b refactor/log
+git status
+git add .
+git status
+git commit -m "refactor: replace frame log"
+git checkout dev
+git checkout master
+git pull
+git checkout dev
+git merge master
+git status
+git checkout .
+git status
+rm -rf src/WorkOrder/Common/SJZY.CAMS.WorkOrder.Common.Application/Services/WorkOrderBase/WorkOrderBasicService.cs
+git status
+git ad .
+git add .
+git status
+git commit -m "fix"
+git log
+git reset --hard a0cd36ceb785eaa4063511b074ec094d9e97fce4
+git log
+git checkout master
+git pull
+git checkout refactor/dev
+git checkout refactor/log
+git merge master
+git checkout dev
+git pull
+git merge refactor/log
+git status
+git add .
+git commit -m "fix"
+git push
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i 
+dotnet run
+ping redis-dev.default.svc.cluster.local
+curl 198.18.50.124
+ping 198.18.50.124
+dotnet run
+git checkout refactor/log
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i 
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+git status
+git checkout src/SJZY.CAMS.Api/appsettings.json
+git status
+git add .
+git status
+git commit -m "refactor: log"
+git push
+git checkout dev
+git merge refactor/log
+git push
+git pull
+git push
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+dotnet run
+git checkout refactor/log
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+git checkout dev
+git merge refactor/log
+git checkout refactor/log
+git status
+git checkout src/SJZY.CAMS.Api/appsettings.json
+git status
+git add .
+git status
+git commit -m "refactor: log"
+git push
+git checkout dev
+git merge refactor/log
+git push
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+git status
+git checkout refactor/log
+git diff
+git add .
+git commit -m "refactor: log"
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+git checkout dev
+git merge refactor/log
+git push
+htop
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+git checkout refactor/log
+git status
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+git status
+git add src/SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+git add src/SJZY.CAMS.Api/Program.cs
+git status
+git commit -m "refactor: log"
+git stats
+gco dev
+gst
+clear
+gst
+git merge refactor/log
+git push
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+git push
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+git status
+git checkout refactor/log
+git add .
+git reset 
+ls
+gst
+gadd src/SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+gst
+c
+gc "refactor: log"
+gco dev
+git merge refactor/log
+git push
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+gst
+gadd src/SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+gst
+c
+gc "refactor: log"
+gco dev
+git merge refactor/log
+gp
+gst
+z money
+cd ~/Documents/binwan-dev/project/binai.money.record/
+ls
+gst
+git add .
+git status
+git commit -m "feat: update"
+ls
+z CAMS.API
+cd src/SJZY.CAMS.Api/
+git checkout refactor/log
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+gst
+gco ../../.gitignore
+cd ../../
+gadd src/SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+gst
+rm -rf .aider.*
+gst
+c
+gc "refactor: log"
+gp
+gst
+gco dev
+git merge refactor/log
+gp
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+ls
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+git status
+gco refactor/log
+gadd src/SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+gadd src/SJZY.CAMS.Api/Program.cs
+gc "refactor: log"
+gco dev
+git merge refactor/log
+git push
+git pull
+git push
+git pull
+git stats
+git status
+git commit -m "fix: merge"
+git push
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+gst
+gco refactor/log
+gp
+gco master
+gpu
+c
+git branch -D refactor/log
+gco -b refactor/log
+git stats
+gst
+dotnet run
+dotnet run 
+gst
+cat src/SJZY.CAMS.Api/appsettings.json
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+curl -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+curl -H "Content-Type: application/json" localhost:5050/test/sex
+gst
+gco src/SJZY.CAMS.Api/Program.cs
+gst
+gadd src/SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+gc "refactor: log"
+gp
+git fetch
+gp
+git push origin refactor/log
+dotnet sdk
+dotnet 
+dotnet --list-runtimes
+dotnet --list-sdks
+ls /usr/local/share/dotnet/x64
+gst
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+gst
+gadd src/SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+gst
+rm -rf src/SystemBase/SJZY.CAMS.SystemBase.Application/Test.cs
+gst
+rm -rf src/SystemBase/SJZY.CAMS.SystemBase.Application/Test.cs
+gst
+gadd src/SystemBase/SJZY.CAMS.SystemBase.Application/Test.cs
+gst
+gc "refactor: log"
+gp
+gst
+cd ../../
+ls
+cd ..
+ls
+cd golang/
+ls
+git clone SYSTEM@git.shijizhongyun.com:bsi-kratos/panda.git
+git checkout dev
+ls
+cd panda/
+ls
+git checkout dev
+git pull
+ls
+cd ..
+ls
+git clone SYSTEM@git.shijizhongyun.com:bsi-golang/proxy.git
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+exit
+dotnet run
+c
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Binsss"}' localhost:5050/test/sex?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Binsss"}' localhost:5050/test/sex?aa=1
+gst
+z CAMS.API
+ls
+gst
+dotnet run
+dotent run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+git status
+gadd Filters/CamsGlobalExceptionFilter.cs Logging/CamsErrorData.cs Logging/CamsLogEventEnricher.cs Program.cs
+gst
+git add Program.cs
+c
+gst
+git commit -m "refactor: log"
+git checkout dev
+git pull
+git status
+git checkout appsettings.json
+git status
+git pull
+git merge refactor/log
+git status
+git statsu
+git status
+gst
+git merge refactor/log
+git reset .
+git status
+git checkout Program.cs
+ls
+git merge --abort
+git status
+rm -rf Logging/
+gst
+glog
+c
+git merge refactor/log
+dotnet run
+gst
+gst
+gadd Filters/CamsGlobalExceptionFilter.cs
+gst
+gc "refactor: log"
+dotnet build
+gp 
+ls
+ls /usr/local/share/dotnet/x64
+whereis dotnet
+ls /usr/local/share/dotnet
+echo $DOTNET_ROOT
+echo $env.DOTNET_ROOT
+exit
+dotnet --info
+ls '/Users/binwan/Library/Application Support/Zed/extensions/work/csharp/omnisharp-v1.39.14/'
+ls '/Users/binwan/Library/Application Support/Zed/extensions/work/csharp/omnisharp-v1.39.14/OmniSharp'
+'/Users/binwan/Library/Application Support/Zed/extensions/work/csharp/omnisharp-v1.39.14/OmniSharp'
+echo $env.DOTNET_ROOT
+ls
+cd '/Users/binwan/Library/Application Support/Zed/extensions/work/csharp/omnisharp-v1.39.14'
+OmniSharp
+chmod +x OmniSharp
+./OmniSharp
+zed
+zsh
+ls
+zed /Users/binwan/Documents/bsi/dotnet/camx/air/BSI.CAMX.Air.Booking
+cat /etc/dotnet/install_location
+sudo vim /etc/dotnet/install_location
+ls
+cd ~/.config/zed/
+ls
+cd ..
+cd zed/
+ls
+cd embeddings/
+ls
+cd semantic-index-db.0.mdb/
+ls
+cd ../../
+ls
+cd conversations/
+ls
+cd ..
+ls
+cd ..
+ls
+mv zed ~/Documents/binwan-dev/project/dotfile/home-config/
+ls
+ls zed/
+rm -rf zed
+ls
+z home-config
+ls
+cd ..
+make home-config
+ls
+ls ~/.config/zed/
+z Booking
+ls
+cd src/BSI.CAMX.Air.Booking.Api/
+ls
+cd bin/
+ls
+cd ..
+ls
+cd obj/
+ls
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+cd ..
+z CAMS.API
+gpu
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+ls
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex -i
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex 
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+gst
+git checkout ../AirManage/SJZY.CAMS.AirManage.Application/test.cs
+gst
+git checkout ../AirManage/SJZY.CAMS.AirManage.Application/test.cs
+c
+cd ..
+gst
+git checkout AirManage/SJZY.CAMS.AirManage.Application/test.cs
+git reset head
+gst
+git checkout AirManage/SJZY.CAMS.AirManage.Application/test.cs
+gst
+gco refactor/log
+git checkout src/SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+gst
+git checkout SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+gst
+git checkout SJZY.CAMS.Api/appsettings.json
+gst
+git checkout refactor/log
+gst
+git add SJZY.CAMS.Api/Filters/CamsGlobalExceptionFilter.cs
+git add SJZY.CAMS.Api/Logging/CamsErrorData.cs
+gst
+gc "refactor: log"
+gp
+gst
+gco dev
+git merge refactor/log
+gp
+gco test
+git pull
+gst
+gco dev
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+gst
+gco refactor/log
+glog
+gp
+gst
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+dotnet run 
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1 -i
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1 -i
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1 -i
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+dotnet run
+ping redis-dev.default.svc.cluster.local
+ls
+tmux
+ls
+ollama pull qwen3-coder:30b
+htop
+cd ~/Documents/binwan-dev/project/
+ls
+mkdir mlx
+cd mlx
+.venv/bin/activate.nu
+ks
+ls
+.venv/bin/activate.nu
+ls
+.venv/bin/activate.nu
+z CAMS.API
+exit
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+dotnet run
+ls
+tmux source-file ~/.config/tmux/tmux.conf
+tmux -V
+tmux source-file ~/.config/tmux/tmux.conf
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+gst
+gadd Logging/*
+gst
+c
+gst
+git add ApiModule.cs
+git add  Filters/CamsGlobalExceptionFilter.cs
+gst
+git add Logging/CamsErrorData.c
+gst
+git add Logging/CamsErrorData.cs
+gst
+git add Program.cs
+gst
+gst appsettings.json
+gst
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+gst
+gc -m "refactor: request log"
+gc "refactor: request log"
+gst
+gco dev
+gco appsettings.json
+gst
+gco dev
+git merge refactor/log
+gst
+gadd Logging/*
+gadd Program.cs
+gst
+gc "fix: merge"
+dotnet run
+gp
+gpu
+gp
+ls
+c
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+dotnet run
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+gco refactor/log
+dotnet run
+;s
+ls
+vim appsettings.json
+cat appsettings.Development.json
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/info?aa=1
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+gst
+git add Logging/CamsLoggingExtension.cs
+gst
+gc "refactor: request log"
+gco dev
+gco appsettings.json
+gco dev
+git merge refactor/log
+gp
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex -i
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' https://centerapi.dev.shijizhongyun.com/camsApi/test/sex?aa=1
+gco refactor/log
+vim appsettings.json
+dotnet run
+curl -X "POST" -H "Content-Type: application/json" -d '{"Name":"Bin"}' localhost:5050/test/sex?aa=1
+gst
+git checkout test
+git checkout appsettings.json
+gco test
+git pull
+gco refactor/log
+gp
+ollama list
+cd ../../../
+ls
+cd ../../
+ls
+cd proto/
+ls
+cd panda/
+ls
+cd ..
+ls
+cd dotnet/
+ls
+cd ..
+ls
+cd proto/
+ls
+cd panda/
+ls
+git pull
+cd ../../
+ls
+cd dotnet/camx/air/BSI.CAMX.Air.Booking/
+make proto
+dotnet build
+exit
+z proto
+ls
+cd panda/
+gpu
+git log
+z Booking
+ls
+z proto
+cd loris/
+git pull
+cd ../
+ls
+cd parrot/
+git pull
+git log
+z Booking
+make proto
+dotnet build
+z prot
+ls
+cd parrot/
+ls
+cd extern/
+ls
+cd panda/
+ls
+cat panda.proto
+git pull
+z Booking
+git pull
+make proto
+dotnet build
+rm -rf src/BSI.CAMX.Air.Booking.Proto/
+git status
+git checkout src/BSI.CAMX.Air.Booking.Proto
+git status
+rm -rf src/BSI.CAMX.Air.Booking.Proto/parrot/
+make proto
+dotnet build
+z proto
+ls
+cd parrot/
+ls
+cd extern/
+ls
+cd loris/
+ls
+la
+cd ../panda/
+ls
+cat panda.proto
+npx fetch-mcp
+sudo npx fetch-mcp
+sudo pxy npm install -g fetch-mcp
+pxy npm install -g fetch-mcp
+npm install -g fetch-mcp
+sudo npm install -g fetch-mcp
+sudo npx fetch-mcp
+sudo npm install -g @benborla29/mcp-server-mysql
+npx -y @benborla29/mcp-server-mysql
+sudo npx -y @benborla29/mcp-server-mysql
+npx -y @benborla29/mcp-server-mysql
+ssh hk01
+ssh hk01 -v
+htop
+fdisl -l
+fdisk
+fdisk -l
+fdisk --list
+curl  -X "DELETE" -H "APIKEY:BSI-uVkOjWo4S5kmAP71OkJ02QidDDKbt2GJ21y" -H "Content-Type:application/json"  https://api.lufthansa-cargo.com/lh/v4/cargo/bookings/carrierNumericCode/020/awbNumber/12345678/customerId/341152507/conversationId/988bea30-ceaa-422c-9d1f-49866660be2e/channelConsumer/bsi
+c
+curl -X "DELETE" -H "APIKEY:BSI-uVkOjWo4S5kmAP71OkJ02QidDDKbt2GJ21y" -H "Content-Type:application/json"  https://api.lufthansa-cargo.com/lh/v4/cargo/bookings/carrierNumericCode/020/awbNumber/12345678/customerId/341152507/conversationId/988bea30-ceaa-422c-9d1f-49866660be2e/channelConsumer/bsi
+curl -X "DELETE" -H "APIKEY:BSI-uVkOjWo4S5kmAP71OkJ02QidDDKbt2GJ21y" -H "Content-Type:application/json"  https://api.lufthansa-cargo.com/lh/v4/cargo/bookings/carrierNumericCode/020/awbNumber/22222222/customerId/341152507/conversationId/988bea30-ceaa-422c-9d1f-49866660be2e/channelConsumer/bsi
+npm install -g lmstudio-mirror-switcher
+lmstudio-mirror-switcher
+zsh
+ls
+z CAMS.API
+gst
+exit
+zsh
+exit
+gst
+git reset head
+gst
+git diff
+gadd .
+gc "refactor: request log"
+gp
+gst
+git diff
+git add .
+git status
+git commit -m "refactor: log"
+gp
+\
+gp
+cd ~/Documents/bsi/
+ls
+cd dotnet/
+ls
+cd ../bi/
+ls
+cd BSI.Cams.BI/
+ls
+gst
+c
+giff
+gdiff
+giadd .
+gadd 
+gadd .
+ssh bin-server
+ping 192.168.3.252
+ssh bin-server -v
+ssh hk01 -v
+ls
+cd Documents/
+ls
+cd bin
+ls
+cd binwan-dev/
+ls
+cd project/
+ls
+cd binai.test/
+ls
+windsurf .
+exit
+z Booking
+ls
+z CAMS.API
+gst
+gco test
+gst
+gpu
+glog
+git log
+git rebase da6786b00877f9b1aec899160bc3370c2176cd43
+git status
+git rebase --abort
+git status
+git reset --hard da6786b00877f9b1aec899160bc3370c2176cd43
+git log
+git push origin test -f
+cat ~/hello-file.go
+rm -rf ~/hello-file.go
+ls
+go run ~/Documents/cherry-studio/hello-file.go
+go
+ls
+pwd
+ls
+mv ~/binai-test-platform/product_requirements.md ./
+ls
+mkdir .ai
+mv product_requirements.md .ai
+ls
+pwd
+ls
+cd docs/
+ls
+wd
+ls -l product_requirements.md
+pwd product_requirements.md
+ls -l product_requirements.md
+pwd
+ls
+zsh
+gadd SJZY.CAMS.Common/CommonModule.cs
+gadd SJZY.CAMS.Common/Options/SnowflakeOptions.cs
+gst
+cd ..
+gadd SJZY.CAMS.Common/Options/SnowflakeOptions.cs
+gadd SJZY.CAMS.Common/CommonModule.cs
+gst
+c
+gst
+gc "fix: snowflake workid confict for fee id"
+git push
+gp
+ls
+exit
+z CAMS.BI
+ls
+git pull
+ls
+git log
+exit
+z
+go install github.com/evilmartians/lefthook/v2@v2.0.2
+cd ..
+ls
+cd crevo-test/
+ls
+cd .git/
+ls
+cd hooks/
+ls
+cd ..
+ls
+git checkout test
+git checkout -b test
+git checkout main
+git checkout master
+git branch
+gst
+git checkout -b main
+git add .
+git status
+git commit -m "refactor: log"
+git push 
+git checkout test
+git checkout -b test
+git status
+touch a.txt
+ls
+git add 
+git add .
+gc "fix: snowflake workid confict for fee id"
+ls
+git checkout main
+git checkout -b ss
+git merge test
+ls
+git merge test
+git checkout test
+touch b.txt
+gadd .
+gc "fix: snowflake workid confict for fee id"
+gco ss
+git merge test
+ls
+git reflog -1
+cat ~/.gitconfig
+ls
+git checkout test
+touch c.txt
+git add .
+gc "fix: snowflake workid confict for fee id"
+gco ss
+git merge test
+ls
+git status
+touch d.txt
+ls
+git status
+git merge test
+git status
+ls
+git checkout test
+ls
+git chekout ss
+ls
+git branch
+git checkout ss
+ls
+git merge test
+ls
+git merge test
+git status
+touch d.txt
+ls
+git status
+git merge test
+git status
+git log
+git status
+ls
+git config --get merge.ff true
+git config --get merge.ff
+git config --set merge.ff true
+git config --unset merge.ff 
+git config --get merge.ff
+git merge test
+git status
+git log
+git config --get merge.ff
+git status
+git merge test
+git status
+cd ..
+ls
+zip crevo-test.zip crevo-test/
+zip -r crevo-test.zip crevo-test/
+zip -v
+zip
+brew install zip
+zip
+zip -r crevo-test.zip crevo-test/
+zhs
+exit
+ls
+z bsi
+ls
+cd ../../
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir binwan
+cd binwan/
+ls
+git clone SYSTEM@git.shijizhongyun.com:binwan/gitspec.git
+cd gitspec/
+ls
+mkdir server
+ls
+mkdir client
+ls
+cd client/
+ls
+cd ..
+ls
+cd server/
+ls
+git status
+ls
+go mod init gitspec.server
+ls
+rm -rf go.mod
+ls
+cargo add actix-web
+cargo --version
+rustup self update
+cargo --version
+rustup update
+rustup default stable
+rustup update
+rustup show
+exit
+rustup component remove rls-preview
+rustup component remove rustc-dev
+rustup component remove llvm-tools-preview
+rustup component remove --toolchain stable rls-preview
+ls
+cd .git/
+ls
+cd hooks/
+ls
+cd ..
+rustup update stable
+ls
+cp -r hooks/ ~/Documents/bsi/binwan/gitspec/client/
+cargo --version
+cargo new gitspec-server
+ls
+cd gitspec-server/
+ls
+mv ./* ../
+ls
+cd ..
+ls
+rm -rf gitspec-server/
+ls
+cd src/
+ls
+cd ..
+ls
+cd hooks/
+ls
+mv pre-merge-commit.bat ../../
+ls
+mv pre-merge-commit ../../
+ls
+rm -rf CHANGELOG.md README.md WINDOWS-FILES.md WINDOWS-SETUP.md install-windows.ps1 install-windows.sh
+ls
+cd ..
+git merge test
+git status
+cargo add actix-web
+ls
+cd .git/ls
+cd .git/hooks/
+ls
+mv reference-transaction.bat reference-transaction.ps1
+ls
+mv reference-transaction.ps1 ../../
+ls
+mv reference-transaction-win.sh ../../
+ls
+git status
+ls
+mv prepare-commit-msg.bat ../../
+mv prepare-commit-msg.ps1 ../../
+ls
+cd ../../../
+ls
+zip -r crevo-test-1656.zip crevo-test/
+git status
+ls
+cd src/
+ls
+cd ..
+cargo run
+dotnet build
+zsh
+curl 127.0.0.1:8080
+cargo run
+curl 127.0.0.1:8080/client/latest
+ls
+cd ..
+ls
+git status
+git add .
+git status
+git add client/
+git status
+ls
+vim .gitignore 
+git status
+git add .
+cat .gitignore
+vim .gitignore 
+git status
+git add .
+git status
+git commit -m "feat: first commit"
+git push
+cd crevo-test/
+ls
+git status
+rm -rf .hooks/
+rm -rf .hooks-version.json
+ls
+git status
+rm -rf HOOKS-*
+git status
+ls
+cd .git/hooks/
+ls
+cd ..
+rm -rf hooks/
+ls
+cd .git
+ls
+cd ..
+ls
+cd .git/
+ls
+git subdir
+cd ..
+ls
+git submodule add SYSTEM@git.shijizhongyun.com:binwan/gitspec.git .gitspec
+cd .gitspec/
+ls
+git config core.sparseCheckout true
+ls
+echo "client/hooks" >> .git/info/sparse-checkout
+ls
+cd ..
+ls
+rm -rf .gitspec/
+ls
+vim .git/config
+ls
+cd ..
+git clone SYSTEM@git.shijizhongyun.com:binwan/githooks.git
+ls
+git status
+cd gitspec/
+cd ../githooks/
+ls
+git status
+ls
+git status
+mv ../gitspec/client/hooks/
+mv ../gitspec/client/hooks/* ./
+ls
+git add .
+git status
+gc "feat: first commit "
+git pus
+gp
+ls
+git submodule add SYSTEM@git.shijizhongyun.com:binwan/githooks.git .git/hooks
+cd .git/hooks/
+ls
+cd ..
+git status
+ls
+git merge test
+git reset HEAD
+git status
+git merge test
+git status
+cd ../gitspec/server/
+ls
+curl 127.0.0.1:8080/client/latest
+ip addr
+ifconfig
+10.211.55.2
+curl 10.211.55.2:8080
+cargo run
+curl 10.211.55.2:8080
+curl 10.211.55.2:8080/client/latest
+gst
+git add pre-merge-commit.bat
+gc "feat: first commit "
+gst
+curl 10.211.55.2:8080/client/latest
+c
+gst
+gadd pre-merge-commit
+gc "feat: first commit 2"
+gst
+ls
+cd ..
+ls
+cargo run
+ls
+cd ..
+ls
+git ad .
+gadd .
+gc "feat: update listen for server"
+gp
+ls
+cd server/
+ls
+zsh
+gadd .
+gst
+git statsu
+gst
+zsh
+exit
+cd ../../
+ls
+cd ../../
+ls
+cd binwan-dev/project/
+ls
+cd Documents
+cd crevo-test/
+ls
+cd .git/hooks/
+ls
+gst
+gadd .
+gc "feat: add version check"
+git push
+git status
+ls
+git status
+gst
+cd ../../
+ls
+gst
+git merge test
+git add .
+git status
+git commit -m "feat: first commit"
+git checkout test
+ls
+touch d.txt
+gst
+gadd .
+gc "feat: d"
+gp
+gst
+cd .git/hooks/
+ls
+gst
+cd ..
+ls
+git merge test
+git checkout -b aa
+ls
+git checkout test
+git checkout -b aaa
+cat /tmp/git-hooks-debug.log
+git merge test
+git status
+git merge test
+git checkout .
+git status
+rm -rf .vs/
+ls
+git merge test
+ls
+vim .gitignore
+git status
+git add .
+git commit -m "feat: ignore"
+git status
+git merge test
+git checkout test
+git checkout -b ssdfa
+git branch 
+git status
+git merge main
+git status
+cat .gitignore
+git rm -rf .vs/slnx.sqlite
+git status
+git commit -m "feat: ignore"
+git checkout -b aasdf
+git status
+git checkout main
+git checkout test
+git status
+git checkout ma
+git checkout main
+git checkout test
+git status
+gst
+git --version
+cd .git/hooks/
+ls
+git status
+chmod +x post-index-change
+cd ../../
+git status
+git add .
+git status
+git reset HEAD
+git add .
+git status
+git reset HEAD
+git config --get core.hooksPath
+cd ..
+cd ../bsi/
+ls
+mkdir bsi-sync
+cd bsi-sync/
+git clone SYSTEM@git.shijizhongyun.com:bsi-sync/fmx-finance.git
+ls
+cd fmx-finance/
+ls
+cat protoc.sh
+ls
+make 
+cat Makefile
+make ini
+make init
+cat go.mod
+go mod tidy
+make init
+go env
+go version
+go version
+make init
+gen-gorm
+gorm-gen
+ls
+exit
+cd project/crevo-test/
+ls
+git status
+git add .
+git reset HEAD
+git status
+git add .
+git commit -m "feat: ignore"
+git status
+git commit -m "feat: ignore"
+cargo run
+ks
+ls
+git status
+brew install FiloSottile/musl-cross/musl-cross
+rustup target add x86_64-unknown-linux-musl
+cargo build --release --target x86_64-unknown-linux-musl
+cargo install cross
+cross build --target x86_64-unknown-linux-musl --release
+rustup target add x86_64-unknown-linux-gnu
+cross build --target x86_64-unknown-linux-musl --release
+rustup target add x86_64-unknown-linux-musl
+cross build --target x86_64-unknown-linux-musl --release
+cross build --target x86_64-unknown-linux-gnu --release
+cross build -r --target x86_64-unknown-linux-gnu
+brew install SergioBenitez/osxct/x86_64-unknown-linux-gnu
+TARGET_CC=x86_64-unknown-linux-gnu cargo build --release --target x86_64-unknown-linux-gnu
+cargo build --release --target x86_64-unknown-linux-gnu
+RUSTFLAGS="-C link-args=-fstack-protector-all -lssp" cargo build --release --target x86_64-unknown-linux-gnu
+export CC_x86_64_unknown_linux_gnu=x86_64-linux-gnu-gcc
+ssh hk01 -v
+ssh bin-server-public -v
+ls
+cd ../../
+ls
+cd project/
+ls
+cd ../../bsi/binwan/
+ls
+scp -r gitspec.tar bin-server-public:~
+ssh bin-server-public -v
+ls
+cd ../../binwan-dev/project/
+ls
+cd crevo-test/
+ls
+cd .git/hooks/
+ls
+git status
+git add .
+git status
+git commit -m "feat: update checkout"
+git push
+ls
+cd ..
+ls
+cd ..
+ls
+z githooks
+ls
+gpu
+git status
+git checkout -b s
+git checkout test
+git status
+git submodule update
+git submodule update --remote .git/hooks/
+cd .git/hooks/
+ls
+git pull
+cd ..
+ls
+git submodule update --remote --recursive
+git checkout test
+git status
+git add .
+git status
+git commit -m "feat: server"
+git push
+git submodule update --remote --recursive
+git checkout test
+git submodule update --remote --recursive
+git submodule 
+git submodule ls
+git submodule show
+git submodule
+git submodule show
+git submodule status
+cat .git/config
+git submodule update --remote .git/hooks
+cd .git/hooks/
+git pull
+cd ..
+ls
+git checkout test
+git checkout -b aer
+git submodule init
+rm -rf .git/hooks/
+ls
+vim .git/config
+git submodule add SYSTEM@git.shijizhongyun.com:binwan/githooks.git .git/hooks
+git submodule add SYSTEM@git.shijizhongyun.com:binwan/githooks.git .git/hooks --force
+git submodule add SYSTEM@git.shijizhongyun.com:binwan/githooks.git .git/hooks
+git submodule add --force SYSTEM@git.shijizhongyun.com:binwan/githooks.git .git/hooks
+cat .gitmodules
+git submodule update --remote .git/hooks
+git submodule update --remote --recursive
+git stauts
+git status
+git add .
+git status
+git commit -m "feat: server"
+git push
+ls .git/hooks/hooks-config.sh
+cat .git/hooks/hooks-config.sh
+git submodule update --remote --recursive
+git submodule update --remote 
+git submodule update --remote .git/hooks
+git submodule sync
+git submodule update --init --recursive
+cat .git/hooks/hooks-config.sh
+git submodule update --init --recursive
+git pull
+git pull origin test
+git submodule update 
+cat .git/hooks/hooks-config.sh
+cd .git/hooks/
+git pull
+cd ..
+git pull
+git branch 
+git checkout s
+git branch 
+git checkotu ss
+git checkout ss
+cat .gitmodules
+git add .
+git status
+git commit -m "feat: server"
+git status
+git add .
+git commit -m "feat: server"
+git push
+git pull
+git status
+git commit -m "feat: server"
+git status
+git add .
+git status
+git commit -m "feat: server"
+git push
+cat .git/config
+ls
+vim hooks-config.sh
+git status
+git add .
+git commit -m "feat: server"
+git push
+git status
+vim hooks-config.sh
+git status
+git add .
+gti commit -m "feat: update"
+git commit -m "feat: update"
+git push
+l
+vim hooks-config.sh
+git add 
+git add .
+git status
+git commit -m "feat: update"
+git push
+git pull
+ls
+vim hooks-config.sh
+git status
+git add .
+git status
+git commit -m "feat: update config"
+git push
+git pull
+vim .git/config
+git pull
+ls
+vim hooks-config.sh
+git status
+git add .
+git commit -m "feat: update config"
+git push
+git status
+git statsu
+git pull
+cd ../../
+ls
+cd binwan/gitspec/
+ls
+cd ..
+cd gitspec/
+ls
+vim src/main.rs
+git status
+git add .
+git status
+git commit -m "feat: update config"
+git push
+ls
+z bsi
+ls
+cd dotnet/
+ls
+git clone SYSTEM@git.shijizhongyun.com:bsi-net/BSI.Micro.git
+ls
+cd BSI.Micro/
+ls
+dotnet restore
+csharp-ls
+dotnet tool update -g csharp-ls
+csharp-ls
+ls
+exit
+ls
+chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
+exit
+ls
+reboot
+sudo reboot
+cd ~/Downloads/
+ls
+cat bsi-ponyapi-test-6bbfffb455-p4cpj_bsi-ponyapi-test.log |grep KafkaSrv-Event
+cat bsi-ponyapi-test-6bbfffb455-p4cpj_bsi-ponyapi-test.log |grep KafkaSrv-Event | grep bsi_isps_order_ylw-test
+curl https://gitspec-bsi.wanbin.tech/client/latest
+exit
+cd ../../../
+cd ../binwan-dev/
+ls
+cd project/
+ls
+cd ../../bsi/binwan/
+ls
+cd gitspec.test/
+ls
+git status
+cd .bsi/githooks/
+ls
+git status
+cd ~/Documents/bsi/binwan/githooks/
+ls
+git pull
+git config --get pull.rebase
+git config 
+git config --add pull.rebase true
+git config
+git config --get pull.rebase
+git config pull.rebase true
+git config --get pull.rebase
+git statsu
+git status
+git add .
+git statsu
+git status
+git commit -m "feat: set pull rebase to true"
+git push
+git statsu
+git status
+npm i -g @openai/codex
+sudo npm i -g @openai/codex
+codex
+ls
+ls
+cd ..
+ls
+cd gitspec.test/
+ls
+git status
+ls
+rm -rf .gitmodules
+ls
+rm -rf .git/modules/
+ls
+git submodule
+ls
+vim .git/config
+git submodule
+vim .git/config
+git submodule
+rm -rf .bsi/githooks/
+git status
+git submodule
+git submodule deinit -f
+git submodule deinit -f --all
+ssh bin-server-public -v
+aider
+zsh
+exit
+zsh
+exit
+zsh
+exit
+ls
+exit
+ls
+ghostty
+exit
+ls
+brew install --cask wezterm

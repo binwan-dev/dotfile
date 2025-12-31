@@ -1,0 +1,14 @@
+database:
+  - name: "airline_booking"
+    host: "mysql-dev.default.svc.cluster.local"
+    port: 3306
+    db: "bsi_camx_air_booking"
+    password: "818f83e5"
+    user: "sjzy_dev_user"
+    driver: "mysql"
+    # optional
+    # postgres only
+    # default value: public
+limit: 50
+keybindings:
+  run-query: 'Ctrl-E'
