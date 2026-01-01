@@ -32,6 +32,6 @@ return {
 		vim.g.doom_one_plugin_lspsaga = false
 
 		vim.cmd("colorscheme doom-one")
-		vim.api.nvim_command("set background=light")
+		-- vim.api.nvim_command("set background=light")
 	end,
 }
