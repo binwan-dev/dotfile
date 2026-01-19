@@ -2,3 +2,4 @@ home-config/zed/conversations/
 home-config/zed/embeddings/
 home-config/zed/prompts/
 home-config/zed/.*
+home-config/nushell/history.txt

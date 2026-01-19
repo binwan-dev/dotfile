@@ -1,7 +1,10 @@
 return {
 	"mason-org/mason-lspconfig.nvim",
 	opts = {
-		ensure_installed = { "csharp_ls" },
+		ensure_installed = {
+			"csharp_ls",
+			"gopls",
+		},
 	},
 	dependencies = {
 		{
