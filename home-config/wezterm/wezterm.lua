@@ -15,4 +15,7 @@ config.color_scheme = appearance_themes[wezterm.gui.get_appearance()] or dark_th
 -- view
 config.enable_tab_bar = false
 
+-- cursor
+config.default_cursor_style = "SteadyBar"
+
 return config
