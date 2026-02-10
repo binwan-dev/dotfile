@@ -4,6 +4,7 @@ return {
 		ensure_installed = {
 			"csharp_ls",
 			"gopls",
+			"rust_analyzer",
 		},
 	},
 	dependencies = {
