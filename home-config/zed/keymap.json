@@ -4,31 +4,37 @@
     "use_key_equivalents": true,
     "bindings": {
       "ctrl-x ctrl-s": "workspace::Save",
-      "ctrl-c ctrl-f": "file_finder::Toggle"
-    }
+      "ctrl-c ctrl-f": "file_finder::Toggle",
+    },
   },
   {
     "context": "Editor",
     "use_key_equivalents": true,
-    "bindings": {}
+    "bindings": {},
   },
   {
     "bindings": {
       "ctrl-c": null,
       "ctrl-c ctrl-p": ["projects::OpenRecent", { "create_new_window": false }],
-      "ctrl-g": "menu::Cancel"
-    }
+      "ctrl-g": "menu::Cancel",
+    },
   },
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-c ctrl-j": "editor::GoToDefinition"
-    }
+      "ctrl-c ctrl-j": "editor::GoToDefinition",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-w": "editor::Copy",
+    },
   },
   {
     "context": "Pane",
     "bindings": {
-      "ctrl-c ctrl-b": "pane::GoBack"
-    }
-  }
+      "ctrl-c ctrl-b": "pane::GoBack",
+    },
+  },
 ]
